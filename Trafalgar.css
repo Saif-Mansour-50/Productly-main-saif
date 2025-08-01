@@ -1,0 +1,350 @@
+:root {
+    --main-color: rgb(252, 187, 66);
+
+
+}
+*{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+     font-family: 'Work Sans', sans-serif;
+}
+@media (max-width: 768px ){
+    .container-width {
+    width: 750px
+}
+}
+@media (max-width: 992px ){
+    .container-width {
+    width: 970px;
+}
+}
+@media (max-width: 1200px ){
+    .container-width {
+    width: 1170px;
+}
+}
+.container-width {
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* .header {
+    padding: 30px;
+} */
+.header .container-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.header .logo {
+    height: 25px;
+}
+.header nav {
+    display: flex;
+    align-items: center; 
+    flex: 1;
+    justify-content: flex-end;
+}
+.header nav ul {
+    display: flex;
+    list-style: none;
+
+}
+.header  ul a {
+   padding: 5px;
+   text-decoration: none;
+   font-size: small;
+   display: block;
+   color: black;
+   transition: .4s;
+   padding: 40px 15px;
+}
+.header  ul a:hover {
+    color: var(--main-color);
+}
+.sign-button {
+margin-left: 40px;
+}
+.header .sign-button button {
+cursor: pointer;
+font-size: 20px;
+border-radius: 5px;
+font-size: 20px;
+text-align: center;
+border: 2px solid skyblue;
+padding: 3px;
+font-size: small;
+padding: 10px 15px;
+}
+ .sign-button button:hover{
+background-color: var(--main-color);
+color: white;
+ }
+.landing .container-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.landing .text-one h1 {
+font-weight: 700;
+font-size: xx-large;
+padding-bottom: 30px;
+}
+.landing .text-one p {
+    color: #777;
+    line-height: 1.4;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.get .sign-buttonn button {
+    margin-right: 25px;
+}
+.get .sign-buttonn a {
+    color: var(--main-color);
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--main-color);
+}
+.get .sign-buttonn i{
+    color: var(--main-color);
+}
+.get .sign-buttonn button {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 20px;
+    background-color: var(--main-color);
+    color: white;
+    border-radius: 10px;
+    border-color: var(--main-color);
+}
+.features .container-width h1 {
+text-align: center;
+padding-top: 100px;
+padding-bottom: 50px;
+}
+.features .container-width .big-box {
+    display: flex;
+    padding-top: 50px;
+   
+}
+.features .container-width .big-box .box span:first-child {
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    position: absolute;
+   
+}
+
+
+
+.features .container-width .big-box .box h3 {
+    padding-top: 50px;
+}
+.features .container-width .big-box .box p {
+  color: #777;
+  font-weight: 600;
+  padding-bottom: 100px;
+}
+.features-button {
+    text-align: center;
+    margin-right:50px
+}
+.features-button button{
+cursor: pointer;
+font-size: 20px;
+border-radius: 5px;
+font-size: 20px;
+text-align: center;
+border: 2px solid skyblue;
+padding: 3px;
+font-size: small;
+padding: 10px 15px;
+background-color: var(--main-color);
+color: #ebf8e1;
+border-color: var(--main-color);
+font-weight: 700;
+}
+.features {
+    background-image: url(images/Back\ G\ 1.svg);
+}
+.Design-Professionals {
+    padding-top: 100px;
+}
+.Design-Professionals .container-width {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Design-Professionals .services h1 {
+    font-weight: 600;
+}
+.Design-Professionals .services h4 {
+font-weight: 500;
+}
+
+.Design-Professionals .services p {
+color: #777;
+}
+.managers .container-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.managers .container-width .managers-logo img {
+    margin-right: 50px;
+}
+.managers  .product p {
+color: #777;
+padding-bottom: 10px;
+}
+.managers  .product h1 {
+    padding-bottom: 10px;
+} 
+.market .container-width {
+     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+.market .marketer p {
+    color: #777;
+}
+.market .marketer h1 {
+    font-weight: 600;
+}
+.market .marketer h4 {
+    font-weight: 500;
+}
+.hero {
+    padding-top : 300px; 
+    background-image: url(images/Back\ G\ 2.svg);
+}
+.hero .container-width {
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.hero .container-width .hero-text {
+    text-align: center;
+    width: 50% ;
+    justify-content : center;
+    transform: translatey(-50%);
+    margin: 0 auto;
+    padding-top: 200px;
+}
+.hero .container-width .hero-text p {
+    color: #777;
+}
+.hero .container-width .hero-text button {
+    cursor: pointer;
+font-size: 20px;
+border-radius: 5px;
+font-size: 20px;
+text-align: center;
+border: 2px solid skyblue;
+padding: 3px;
+font-size: small;
+padding: 10px 15px;
+background-color: var(--main-color);
+color: white;
+border-color: var(--main-color);
+}
+.hero .container-width .hero-boxs {
+    position: relative;
+}
+.hero .container-width .hero-boxs img {
+    position: absolute;
+    width :300px;
+    bottom: 160px;
+}
+.hero-boxs img:first-child {
+    right: 370px;
+}
+
+.hero-boxs img:nth-child(2) {
+left: 350px;
+}
+.hero-boxs img:nth-child(3) {
+    left: 350px;
+    top: 50px;
+}
+.hero-boxs img:nth-child(4) {
+    top: 50px;
+    left: -269px;
+}
+.hero-boxs img:nth-child(5) {
+left: 40px;
+    bottom: 50px;
+    top: 82px;
+}
+.marketing{
+    padding-top: 200px;
+}
+.marketing .market-box {
+    text-align: center;
+    padding-bottom: 50px;
+}
+.marketing .market-box p {
+    color: #777;
+}
+.marketing .markets-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10px;
+
+}
+.marketing .markets-box p{
+    color: #777;
+}
+.circle-icon {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: var(--main-color);
+}
+.footer .container-width {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer .container-width .logo{
+    padding-bottom: 150px;
+}
+
+
+.footer .container-width table td {
+    color: #777;
+    padding: 10px;
+}
+
+
+.footer .container-width form input {
+    padding: 5px 15px;
+    
+}
+.footer .container-width form button {
+cursor: pointer;
+font-size: 20px;
+border-radius: 5px;
+font-size: 20px;
+text-align: center;
+border: 2px solid skyblue;
+padding: 3px;
+font-size: small;
+padding: 10px 15px;
+background-color: var(--main-color);
+color: white;
+border-color: var(--main-color);
+    
+}
